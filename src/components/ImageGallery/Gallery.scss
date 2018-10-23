@@ -1,0 +1,46 @@
+.gallery {
+  padding-top: 25px;
+  &__add-btn{
+    margin-right: 25px;
+  }
+  &__image {
+    margin: 5px;
+    width: 120px;
+  }
+  &__preview-image {
+    width: 300px;
+  }
+
+  &__img-wrap {
+    text-align: center;
+    padding-top: 50px;
+  }
+}
+
+.pagination {
+  li {
+    display: inline-block;
+
+    a {
+      padding: 15px;
+      border: 1px solid grey;
+      cursor: pointer;
+    }
+  }
+
+  li.active {
+    a {
+      background: #3476ff;
+      color: #fff;
+    }
+  }
+}
+
+.text-align {
+  &-center {
+    text-align: center;
+  }
+  &-right {
+    text-align: right;
+  }
+}
